@@ -7,6 +7,7 @@ from random import randint
 def scanline_convert(polygons, i, screen, zbuffer):
     color = [randint(0, 256), randint(0, 256), randint(0, 256)]
     swap = False
+    #brute force comparison deals with edge cases
     if polygons[i][1] >= polygons[i + 1][1]:
         if polygons[i][1] >= polygons[i + 2][1]:
             yt = polygons[i][1]
