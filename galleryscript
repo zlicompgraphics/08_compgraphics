@@ -1,0 +1,28 @@
+push
+rotate
+x 20
+rotate
+y 20
+move
+50 -20 0
+#body
+box
+150 325 0 200 200 200
+#head
+sphere
+200 425 0 75
+#left arm
+box
+25 300 0 100 50 50
+#left leg
+box
+210 125 -200 50 175 50
+#right leg
+box
+340 125 -200 50 175 50
+#right arm
+box
+325 275 -50 100 50 50
+display
+save
+colorconstruct.png
